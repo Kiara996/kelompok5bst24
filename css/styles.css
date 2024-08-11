@@ -480,7 +480,7 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  text-align: justify;
+  text-align: center;
 }
 
 .display-1 {
@@ -11044,3 +11044,35 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+@font-face {
+  font-family: "Future Racer";
+  src: url("/assets/fonts/Fastrace.ttf"), format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Simplicity";
+  src: url("/assets/fonts/Cartesian.otf"), format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.general-info {
+  font-family: "Simplicity",sans-serif ;
+  font-size: 1.2rem;
+  color: #0dcaf0;
+  text-align: center;
+}
+.general-info > .general-info-brief {
+  font-family: "Future Racer", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #e8f8f5;
+}
+.ultype {
+  list-style-type: disc;
+}
+.list {
+  text-align: left;
+}
+
