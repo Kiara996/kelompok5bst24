@@ -603,6 +603,10 @@ progress {
   background-color: #777;
 }
 
+.vertikal{
+  width: 406px;
+  height: 712px;
+}
 .img-karya-buku {
   width: 100%;
   margin: 0 auto;
