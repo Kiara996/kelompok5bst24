@@ -597,7 +597,7 @@ progress {
   align-content: center;
 }
 
-.video-portofolio, iframe {
+.video-portofolio1, iframe {
   width: 100%;
   margin: 0 auto;
   background-color: #777;
@@ -11095,3 +11095,20 @@ html {
   text-align: left;
 }
 
+.video-portofolio2, iframe {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #777;
+}
+
+.video-portofolio3, iframe {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #777;
+}
+
+.video-portofolio4, iframe {
+  width: 100%;
+  margin: 0 auto;
+  background-color: transparent;
+}
