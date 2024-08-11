@@ -590,9 +590,17 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
-  
+  width: 400px;
+  height: 265px;
+  position: relative;
+  object-fit: cover;
+  margin: auto;
+}
+
+.video-portofolio, iframe {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #777;
 }
 
 .img-thumbnail {
@@ -1997,7 +2005,7 @@ progress {
   border-radius: 12px !important;
   border-color: #000;
   -webkit-appearance: none;
-     -moz-appearance: none;
+    -moz-appearance: none;
           appearance: none;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -3743,6 +3751,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   position: relative;
   display: flex;
+  background-color: #232323;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
