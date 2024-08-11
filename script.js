@@ -48,11 +48,10 @@ submitButton.addEventListener('click', () => {
 
 // Video Closing each time the button "Close Window" is pressed
 
-var videoContainer = document.querySelector('.video-portofolio');
-
 // Portfolio 1
 // Ambil elemen modal dan iframe video
 var modalElement1 = document.getElementById('portfolioModal1');
+var videoContainer1 = document.querySelector('.video-portofolio1');
 var videoIframe1 = document.getElementById('videomodal1');
 
 // Event listener untuk tombol close dan modal close
@@ -62,44 +61,49 @@ modalElement1.addEventListener('hidden.bs.modal', function () {
   
   // Tambahkan iframe kembali ke DOM setelah beberapa waktu
   setTimeout(function() {
-      videoContainer.innerHTML = '<iframe id="videomodal1" src="https://drive.google.com/file/d/15FemN0kPf_BqbpYlwzTc1zGYBm6nbTTP/preview" width="712" height="406" allow="autoplay"></iframe>';
+      videoContainer1.innerHTML = '<iframe id="videomodal1" src="https://drive.google.com/file/d/15FemN0kPf_BqbpYlwzTc1zGYBm6nbTTP/preview" width="712" height="406" allow="autoplay"></iframe>';
     }, 500); // Delay 500ms untuk memastikan iframe dihapus dan kemudian ditambahkan kembali
   }
 );
 
 // Portfolio 2
 var modalElement2 = document.getElementById('portfolioModal2');
+var videoContainer2 = document.querySelector('.video-portofolio2');
 var videoIframe2 = document.getElementById('videomodal2');
 
 modalElement2.addEventListener('hidden.bs.modal', function () {
   videoIframe2.remove();
     setTimeout(function() {
-      videoContainer.innerHTML = '<iframe id="videomodal2" src="https://drive.google.com/file/d/1p5XZr7ryD6fMn1JzNMWvuiQAaeeM7SJ4/preview" width="712" height="406" allow="autoplay"></iframe>';
+      videoContainer2.innerHTML = '<iframe id="videomodal2" src="https://drive.google.com/file/d/1p5XZr7ryD6fMn1JzNMWvuiQAaeeM7SJ4/preview" width="712" height="406" allow="autoplay"></iframe>';
     }, 500);
   }
 );
 
 // Portfolio 3
 var modalElement3 = document.getElementById('portfolioModal3');
+var videoContainer3 = document.querySelector('.video-portofolio3');
 var videoIframe3 = document.getElementById('videomodal3');
 
 modalElement3.addEventListener('hidden.bs.modal', function () {
   videoIframe3.remove();
     setTimeout(function() {
-      videoContainer.innerHTML = '<iframe id="videomodal3" src="https://drive.google.com/file/d/14DB9sbetRKvltPCtm3zf098LzcuTlfr6/preview" width="712" height="406" allow="autoplay"></iframe>';
+      videoContainer3.innerHTML = '<iframe id="videomodal3" src="https://drive.google.com/file/d/14DB9sbetRKvltPCtm3zf098LzcuTlfr6/preview" width="712" height="406" allow="autoplay"></iframe>';
     }, 500);
   }
 );
 
 // Portfolio 4
 var modalElement4 = document.getElementById('portfolioModal4');
+var videoContainer4 = document.querySelector('.video-portofolio4');
 var videoIframe4 = document.getElementById('videomodal4');
 
 modalElement4.addEventListener('hidden.bs.modal', function () {
   videoIframe4.remove();
     setTimeout(function() {
-      videoContainer.innerHTML = '<iframe id="videomodal4" src="https://drive.google.com/file/d/1NPMrRVtrDVbxSFlJidTLlMPPXQjt_TPb/preview" allow="autoplay"></iframe>';
+      videoContainer4.innerHTML = '<iframe id="videomodal4" class="vertikal" src="https://drive.google.com/file/d/1NPMrRVtrDVbxSFlJidTLlMPPXQjt_TPb/preview" allow="autoplay"></iframe>';
     }, 500);
   }
 );
+
+
 
