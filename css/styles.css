@@ -594,10 +594,16 @@ progress {
   height: 265px;
   position: relative;
   object-fit: cover;
-  margin: auto;
+  align-content: center;
 }
 
 .video-portofolio, iframe {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #777;
+}
+
+.img-karya-buku {
   width: 100%;
   margin: 0 auto;
   background-color: #777;
